@@ -1,0 +1,11 @@
+// Book lesson button
+<script>
+const button = document.getElementById("bookButton");
+
+button.addEventListener("click", function(event){
+
+    event.preventDefault();
+
+    alert("🏄 Thanks for booking a lesson with WaveRiders!");
+});
+</script>
